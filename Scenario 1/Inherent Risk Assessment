@@ -1,0 +1,12 @@
+| **Category**            | **Description**                                             | **Likelihood** | **Impact** | **Risk Rating** | **Scenario**                                               |
+|-------------------------|-------------------------------------------------------------|----------------|------------|-----------------|------------------------------------------------------------|
+| Data                    | Sensitive data (PII, SPI) exposed due to misconfiguration   | High           | High       | Critical        | Data breach leading to reputational damage and legal fines. |
+| Data                    | Unauthorized access to intellectual property (IP)           | Medium         | High       | High            | Loss of competitive advantage or trade secrets.            |
+| Data                    | Financial data exposed                                      | High           | High       | Critical        | Fraud, financial loss, or regulatory penalties.            |
+| Data                    | Logs or metadata exposed                                   | Medium         | Medium     | Medium          | Attackers gain insights for further exploitation.           |
+| Amount of Data          | 10,000+ records exposed                                    | High           | High       | Critical        | Large-scale data breach leading to significant ICO fines.  |
+| Access Control          | Publicly accessible S3 bucket                              | High           | High       | Critical        | Unauthorized users access and download sensitive data.     |
+| Access Control          | Weak IAM policies or lack of MFA                           | High           | High       | Critical        | Attackers gain unauthorized access to the bucket.          |
+| Data Integrity          | Data tampering or deletion                                 | Medium         | High       | High            | Attackers modify or delete critical business data.         |
+| Monitoring              | Lack of logging and monitoring                             | High           | Medium     | High            | Unauthorized access or malicious activity goes undetected. |
+| Compliance              | Violation of GDPR, CCPA, or other regulations              | High           | High       | Critical        | Regulatory fines and legal action.                         |
