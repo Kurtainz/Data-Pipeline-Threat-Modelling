@@ -1,0 +1,8 @@
+| **Category**            | **Description**                                             | **Likelihood** | **Impact** | **Risk Rating** | **Scenario**                                               |
+|-------------------------|-------------------------------------------------------------|----------------|------------|-----------------|------------------------------------------------------------|
+| Data Integrity          | Malicious data injected into the scraping pipeline          | High           | High       | Critical        | Corrupted or malicious data stored in S3 bucket.           |
+| Data                    | Sensitive data exposed due to malicious content             | High           | High       | Critical        | Attackers exfiltrate sensitive data using malicious scripts.|
+| System Security         | Exploitation of vulnerabilities in downstream systems       | Medium         | High       | High            | Malicious scripts exploit vulnerabilities in the system.    |
+| Compliance              | Violation of GDPR, CCPA, or other regulations               | High           | High       | Critical        | Regulatory fines and legal action due to data breaches.     |
+| Reputation              | Loss of customer trust due to data corruption               | Medium         | High       | High            | Reputational damage and loss of business.                  |
+| Business Continuity     | Disruption of operations due to corrupted data              | Medium         | High       | High            | Operational disruption and increased recovery costs.        |

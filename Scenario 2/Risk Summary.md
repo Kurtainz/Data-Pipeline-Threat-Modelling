@@ -1,0 +1,7 @@
+ | **Risk ID** | **Description**                                         | **Severity** | **Likelihood** | **Impact** | **Mitigation Plan**                                       |
+ |-------------|---------------------------------------------------------|--------------|----------------|------------|-----------------------------------------------------------|
+ | R1          | Malicious data injected into the scraping pipeline      | High         | High           | High       | Validate and sanitize all scraped data before processing. |
+ | R2          | Sensitive data exposed due to malicious content         | High         | High           | High       | Use libraries like `BeautifulSoup` to remove harmful elements. |
+ | R3          | Exploitation of vulnerabilities in downstream systems   | High         | Medium         | High       | Monitor for unusual activity in downstream systems.       |
+ | R4          | Violation of GDPR, CCPA, or other regulations           | High         | High           | High       | Encrypt data at rest and implement access controls.       |
+ | R5          | Loss of customer trust due to data corruption           | Medium       | High           | High       | Regularly back up data and test incident response plans.  |
